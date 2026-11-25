@@ -1,0 +1,21 @@
+{
+  "name": "web-user",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "见屿用户端（本周：个人主页 + 关注/取关）",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7"
+  }
+}
